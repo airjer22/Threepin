@@ -159,7 +159,7 @@ export function TeamEditor({ teamId }: TeamEditorProps) {
             <Button
               variant="outline"
               onClick={() => handleAddMember("substitute")}
-              className="border-white/10 text-white hover:bg-white/5"
+              className="border-white/10 bg-white text-black hover:bg-white/90"
             >
               <UserPlus className="h-4 w-4 mr-2" />
               Add as Substitute

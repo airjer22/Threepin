@@ -100,7 +100,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handleScoreChange("home", -1)}
-                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Minus className="h-4 w-4" />
                   </Button>
@@ -108,7 +108,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handleScoreChange("home", 1)}
-                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Plus className="h-4 w-4" />
                   </Button>
@@ -133,7 +133,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handleScoreChange("away", -1)}
-                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Minus className="h-4 w-4" />
                   </Button>
@@ -141,7 +141,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handleScoreChange("away", 1)}
-                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-10 w-10 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Plus className="h-4 w-4" />
                   </Button>
@@ -169,7 +169,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handlePinChange("home", -1)}
-                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Minus className="h-3 w-3" />
                   </Button>
@@ -177,7 +177,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handlePinChange("home", 1)}
-                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Plus className="h-3 w-3" />
                   </Button>
@@ -199,7 +199,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handlePinChange("away", -1)}
-                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Minus className="h-3 w-3" />
                   </Button>
@@ -207,7 +207,7 @@ export function MatchScoringModal({
                     variant="outline"
                     size="icon"
                     onClick={() => handlePinChange("away", 1)}
-                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5"
+                    className="h-8 w-8 rounded-full border-white/10 hover:bg-white/5 text-black bg-white hover:text-black"
                   >
                     <Plus className="h-3 w-3" />
                   </Button>
@@ -221,7 +221,7 @@ export function MatchScoringModal({
             <Button
               variant="outline"
               onClick={handleReset}
-              className="border-white/10 text-white hover:bg-white/5"
+              className="border-white/10 bg-white text-black hover:bg-white/90"
             >
               Reset
             </Button>
