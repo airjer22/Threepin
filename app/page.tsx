@@ -47,7 +47,7 @@ export default function LoginPage() {
   const handleGuestLogin = () => {
     // Set a guest cookie
     Cookies.set("auth", "guest", { expires: 1 }); // Guest cookie expires in 1 day
-    router.push("/dashboard");
+    router.push("/guest");
   };
 
   return (
@@ -100,7 +100,7 @@ export default function LoginPage() {
             <Button
               type="button"
               variant="outline"
-              className="w-full border-white/10 text-black hover:bg-white/5"
+              className="w-full border-white/10 text-black bg-white hover:bg-white/90"
               onClick={handleGuestLogin}
             >
               Continue as Guest

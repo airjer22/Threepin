@@ -95,13 +95,13 @@ export function CreateTournamentDialog({
                   <SelectValue placeholder="Select" />
                 </SelectTrigger>
                 <SelectContent className="bg-gray-900 border-white/10">
-                  {[4, 6, 8, 10, 12].map((num) => (
+                  {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
                     <SelectItem
                       key={num}
                       value={num.toString()}
                       className="text-white hover:bg-white/5"
                     >
-                      {num} Teams
+                      {num} {num === 1 ? "Team" : "Teams"}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -120,7 +120,7 @@ export function CreateTournamentDialog({
                   <SelectValue placeholder="Select" />
                 </SelectTrigger>
                 <SelectContent className="bg-gray-900 border-white/10">
-                  {[1, 2, 3, 4].map((num) => (
+                  {Array.from({ length: 10 }, (_, i) => i + 1).map((num) => (
                     <SelectItem
                       key={num}
                       value={num.toString()}
@@ -160,7 +160,7 @@ export function CreateTournamentDialog({
               variant="outline"
               size="sm"
               onClick={handleAddTeam}
-              className="border-white/10 text-white hover:bg-white/5"
+              className="border-white/10 bg-white text-black hover:bg-white/90"
             >
               <Plus className="h-4 w-4 mr-2" />
               Add Team
