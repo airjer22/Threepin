@@ -117,11 +117,11 @@
 }
 
 .calendar-dark .rbc-event {
-  @apply bg-blue-600 border-blue-700;
+  @apply border-0 transition-colors duration-200 rounded-md overflow-hidden;
 }
 
 .calendar-dark .rbc-event.rbc-selected {
-  @apply bg-blue-700;
+  @apply bg-opacity-90;
 }
 
 .calendar-dark .rbc-time-content,
